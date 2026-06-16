@@ -1,0 +1,31 @@
+# Secrets
+.env
+*.secret
+
+# Proxy logs
+proxy.log
+proxy-out.log
+proxy-err.log
+
+# Data files (xlsx data, zips, CSVs)
+Onesite_Examples/xlsx_by_sheet/
+Onesite_Examples/tables/
+Onesite_Examples/_zips/
+BIX_Examples/*.csv
+BIX_Examples/*.xlsx
+Onesite_Examples/*.xlsx
+SemanticModel_Analysis/*.xlsx
+
+# Reference/draft Excel schemas
+*.xlsx
+*.zip
+
+# Temp build artifacts
+*.b64
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
